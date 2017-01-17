@@ -20,7 +20,7 @@ public class JavaFX_P1 extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
+        //Prueba de git nº 1
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
